@@ -58,11 +58,8 @@
                <height>401</height>
               </size>
              </property>
-             <property name="lineWrapMode">
-              <enum>QTextEdit::FixedColumnWidth</enum>
-             </property>
              <property name="textInteractionFlags">
-              <set>Qt::TextSelectableByMouse</set>
+              <set>Qt::TextEditorInteraction</set>
              </property>
             </widget>
            </item>

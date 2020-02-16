@@ -20,6 +20,8 @@ private slots:
 
     void on_tab_windowIconChanged(const QIcon &icon);
 
+    void on_pushButton_8_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
