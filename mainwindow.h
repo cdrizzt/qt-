@@ -15,6 +15,11 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+    void on_tab_destroyed();
+
+    void on_tab_windowIconChanged(const QIcon &icon);
+
 private:
     Ui::MainWindow *ui;
 };
